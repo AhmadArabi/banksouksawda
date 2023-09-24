@@ -83,15 +83,12 @@
   width: 100%;
   display: grid;
   grid-template-columns: 49% 1% 49%;
-  grid-gap: 20px;
+  grid-gap: 1%;
 }
 
 @media (max-width: 576px) {
   .divTopMainLogos {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-gap: 20px;
+    /*grid-template-columns: 100%;*/
   }
 }
 
@@ -118,7 +115,7 @@
 
 @media (max-width: 576px) {
   .divTopMainLogosMiddle {
-    display: none;
+    /*display: none;*/
   }
 }
 
@@ -178,6 +175,7 @@
   align-items: center;
   margin: 0;
   text-align: center;
+  line-height: 1.3;
 }
 
 .divEventPicImg {
@@ -223,5 +221,11 @@
 
 .logoImgsMainWrapper0 {
   margin: 0 20px 0 20px;
+}
+
+@media (max-width: 576px) {
+  .logoImgsMainWrapper0 {
+    margin: 0 5px 0 5px;
+  }
 }
 
