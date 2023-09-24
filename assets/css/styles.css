@@ -175,6 +175,7 @@
 @media (max-width: 576px) {
   .divTopMainTextPara {
     font-size: 24px;
+    display: none;
   }
 }
 
@@ -249,6 +250,16 @@
   .divTopMainLogosMain.divTopMainLogosBottom {
     display: block;
     margin: 20px 0 10px 0;
+  }
+}
+
+.divTopMainTextImg {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .divTopMainTextImg {
+    display: block;
   }
 }
 
