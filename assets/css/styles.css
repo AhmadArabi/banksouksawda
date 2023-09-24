@@ -1,0 +1,227 @@
+.htmlMain {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+
+.bodyMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  word-break: break-word;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: 'Neucha';
+  word-break: break-word;
+  color: #ffffff;
+  position: relative;
+}
+
+.divCustomContainer {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px 0 10px;
+  position: relative;
+  flex-grow: 1;
+}
+
+.divTV {
+}
+
+.divTV {
+  width: 100%;
+  padding-top: calc(100% / (16 / 9));
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  position: relative;
+}
+
+.vidHV {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.divMidMain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.divTVimg {
+  position: absolute;
+  top: 0;
+}
+
+.divTVWrapper {
+  padding: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0 0 0;
+}
+
+@media (max-width: 576px) {
+  .divTVWrapper {
+    padding: 25px;
+    margin: 10px 0 20px 0;
+  }
+}
+
+.divTopMainLogos {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 49% 1% 49%;
+  grid-gap: 20px;
+}
+
+@media (max-width: 576px) {
+  .divTopMainLogos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 20px;
+  }
+}
+
+.divTopMain {
+  width: 100%;
+  margin: 50px 0 0 0;
+}
+
+.divTopMainLogosMain {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.divTopMainLogosMain.divTopMainLogosLeft {
+}
+
+.divTopMainLogosMiddle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .divTopMainLogosMiddle {
+    display: none;
+  }
+}
+
+.divTopMainLogosMain.divTopMainLogosRight {
+  justify-content: end;
+}
+
+.logoImgsMain {
+  width: 100%;
+  max-width: 150px;
+}
+
+.logoImgsMainText {
+  width: 100%;
+  max-width: 100%;
+}
+
+.divTopMainLogosMain.divTopMainLogosDivider {
+  max-height: 90px;
+}
+
+.divTopMainText {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0 40px;
+}
+
+@media (max-width: 576px) {
+  .divTopMainText {
+    padding: 10px 0 10px 0;
+  }
+}
+
+.divTopMainTextPara {
+  margin: 0;
+  font-size: 35px;
+  color: black;
+  text-align: center;
+  line-height: 1.3;
+}
+
+@media (max-width: 576px) {
+  .divTopMainTextPara {
+    font-size: 24px;
+  }
+}
+
+.divMainText {
+  color: black;
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+}
+
+.divEventPicImg {
+  width: 100%;
+  max-width: 700px;
+}
+
+.divEventPic {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 150px 0;
+}
+
+@media (max-width: 576px) {
+  .divEventPic {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 50px 0;
+  }
+}
+
+.divMainBottom {
+  width: 100%;
+  margin: 75px 0 0 0;
+}
+
+.divMainBottomArt {
+}
+
+.divMainBottomArtImg {
+  width: 100%;
+}
+
+.logoImgsMainWrapper {
+  width: 100%;
+}
+
+.logoImgsMainWrapper0 {
+  margin: 0 20px 0 20px;
+}
+
