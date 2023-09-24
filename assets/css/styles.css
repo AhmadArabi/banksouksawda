@@ -88,13 +88,19 @@
 
 @media (max-width: 576px) {
   .divTopMainLogos {
-    /*grid-template-columns: 100%;*/
+    grid-template-columns: 100%;
   }
 }
 
 .divTopMain {
   width: 100%;
   margin: 50px 0 0 0;
+}
+
+@media (max-width: 576px) {
+  .divTopMain {
+    margin: 20px 0 0 0;
+  }
 }
 
 .divTopMainLogosMain {
@@ -106,6 +112,12 @@
 .divTopMainLogosMain.divTopMainLogosLeft {
 }
 
+@media (max-width: 576px) {
+  .divTopMainLogosMain.divTopMainLogosLeft {
+    grid-area: 2;
+  }
+}
+
 .divTopMainLogosMiddle {
   display: flex;
   flex-direction: column;
@@ -115,7 +127,7 @@
 
 @media (max-width: 576px) {
   .divTopMainLogosMiddle {
-    /*display: none;*/
+    display: none;
   }
 }
 
@@ -168,7 +180,7 @@
 
 .divMainText {
   color: black;
-  font-size: 28px;
+  font-size: 23px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -226,6 +238,17 @@
 @media (max-width: 576px) {
   .logoImgsMainWrapper0 {
     margin: 0 5px 0 5px;
+  }
+}
+
+.divTopMainLogosMain.divTopMainLogosBottom {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .divTopMainLogosMain.divTopMainLogosBottom {
+    display: block;
+    margin: 20px 0 10px 0;
   }
 }
 
