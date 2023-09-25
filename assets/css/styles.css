@@ -89,6 +89,7 @@
 @media (max-width: 576px) {
   .divTopMainLogos {
     grid-template-columns: 100%;
+    grid-gap: 5%;
   }
 }
 
@@ -133,6 +134,12 @@
 
 .divTopMainLogosMain.divTopMainLogosRight {
   justify-content: end;
+}
+
+@media (max-width: 576px) {
+  .divTopMainLogosMain.divTopMainLogosRight {
+    padding: 0 0 0 10px;
+  }
 }
 
 .logoImgsMain {
@@ -249,7 +256,7 @@
 @media (max-width: 576px) {
   .divTopMainLogosMain.divTopMainLogosBottom {
     display: block;
-    margin: 20px 0 10px 0;
+    margin: 10px 0 20px 0;
   }
 }
 
